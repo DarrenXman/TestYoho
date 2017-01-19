@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		906CC7F71E30CE9000B8508B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 906CC7F61E30CE8F00B8508B /* main.m */; };
+		906CC7FA1E30CE9000B8508B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 906CC7F91E30CE9000B8508B /* AppDelegate.m */; };
+		906CC7FD1E30CE9100B8508B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906CC7FC1E30CE9100B8508B /* ViewController.m */; };
+		906CC8001E30CE9100B8508B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906CC7FE1E30CE9100B8508B /* Main.storyboard */; };
+		906CC8021E30CE9100B8508B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906CC8011E30CE9100B8508B /* Assets.xcassets */; };
+		906CC8051E30CE9200B8508B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906CC8031E30CE9200B8508B /* LaunchScreen.storyboard */; };
+		906CC8101E30CE9200B8508B /* TestYohoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 906CC80F1E30CE9200B8508B /* TestYohoTests.m */; };
+		906CC81B1E30CE9300B8508B /* TestYohoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 906CC81A1E30CE9300B8508B /* TestYohoUITests.m */; };
+		90DE16981E30E6370008B6E9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DE16971E30E6370008B6E9 /* HomeViewController.m */; };
+		90DE169B1E30E6460008B6E9 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DE169A1E30E6460008B6E9 /* CategoryViewController.m */; };
+		90DE169E1E30E65A0008B6E9 /* GoAroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DE169D1E30E65A0008B6E9 /* GoAroundViewController.m */; };
+		90DE16A11E30E6670008B6E9 /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DE16A01E30E6670008B6E9 /* CartViewController.m */; };
+		90DE16A41E30E66F0008B6E9 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DE16A31E30E66F0008B6E9 /* MineViewController.m */; };
+		90DE16AA1E30E8900008B6E9 /* YHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DE16A91E30E8900008B6E9 /* YHBaseNavigationController.m */; };
+		90DE16AD1E30EC0F0008B6E9 /* YHBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DE16AC1E30EC0F0008B6E9 /* YHBaseTabBarController.m */; };
+		90DE16B41E30FA1D0008B6E9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 90DE16B01E30FA1D0008B6E9 /* LICENSE */; };
+		90DE16B51E30FA1D0008B6E9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DE16B21E30FA1D0008B6E9 /* MBProgressHUD.m */; };
+		90DE16B61E30FA1D0008B6E9 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 90DE16B31E30FA1D0008B6E9 /* README.mdown */; };
+		90DE16BB1E30FB370008B6E9 /* MBProgressHUD+JDragon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90DE16B81E30FB370008B6E9 /* MBProgressHUD+JDragon.bundle */; };
+		90DE16BC1E30FB370008B6E9 /* MBProgressHUD+JDragon.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DE16BA1E30FB370008B6E9 /* MBProgressHUD+JDragon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		906CC80C1E30CE9200B8508B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 906CC7EA1E30CE8F00B8508B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 906CC7F11E30CE8F00B8508B;
+			remoteInfo = TestYoho;
+		};
+		906CC8171E30CE9200B8508B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 906CC7EA1E30CE8F00B8508B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 906CC7F11E30CE8F00B8508B;
+			remoteInfo = TestYoho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		906CC7F21E30CE8F00B8508B /* TestYoho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestYoho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		906CC7F61E30CE8F00B8508B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		906CC7F81E30CE9000B8508B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		906CC7F91E30CE9000B8508B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		906CC7FB1E30CE9100B8508B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		906CC7FC1E30CE9100B8508B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		906CC7FF1E30CE9100B8508B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		906CC8011E30CE9100B8508B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		906CC8041E30CE9200B8508B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		906CC8061E30CE9200B8508B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		906CC80B1E30CE9200B8508B /* TestYohoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestYohoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		906CC80F1E30CE9200B8508B /* TestYohoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestYohoTests.m; sourceTree = "<group>"; };
+		906CC8111E30CE9200B8508B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		906CC8161E30CE9200B8508B /* TestYohoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestYohoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		906CC81A1E30CE9300B8508B /* TestYohoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestYohoUITests.m; sourceTree = "<group>"; };
+		906CC81C1E30CE9300B8508B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DE16961E30E6370008B6E9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		90DE16971E30E6370008B6E9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		90DE16991E30E6460008B6E9 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		90DE169A1E30E6460008B6E9 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		90DE169C1E30E65A0008B6E9 /* GoAroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoAroundViewController.h; sourceTree = "<group>"; };
+		90DE169D1E30E65A0008B6E9 /* GoAroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoAroundViewController.m; sourceTree = "<group>"; };
+		90DE169F1E30E6670008B6E9 /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		90DE16A01E30E6670008B6E9 /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		90DE16A21E30E66F0008B6E9 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		90DE16A31E30E66F0008B6E9 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		90DE16A81E30E8900008B6E9 /* YHBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseNavigationController.h; sourceTree = "<group>"; };
+		90DE16A91E30E8900008B6E9 /* YHBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseNavigationController.m; sourceTree = "<group>"; };
+		90DE16AB1E30EC0F0008B6E9 /* YHBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseTabBarController.h; sourceTree = "<group>"; };
+		90DE16AC1E30EC0F0008B6E9 /* YHBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseTabBarController.m; sourceTree = "<group>"; };
+		90DE16B01E30FA1D0008B6E9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		90DE16B11E30FA1D0008B6E9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		90DE16B21E30FA1D0008B6E9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		90DE16B31E30FA1D0008B6E9 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		90DE16B81E30FB370008B6E9 /* MBProgressHUD+JDragon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "MBProgressHUD+JDragon.bundle"; sourceTree = "<group>"; };
+		90DE16B91E30FB370008B6E9 /* MBProgressHUD+JDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+JDragon.h"; sourceTree = "<group>"; };
+		90DE16BA1E30FB370008B6E9 /* MBProgressHUD+JDragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+JDragon.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		906CC7EF1E30CE8F00B8508B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906CC8081E30CE9200B8508B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906CC8131E30CE9200B8508B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		906CC7E91E30CE8F00B8508B = {
+			isa = PBXGroup;
+			children = (
+				906CC7F41E30CE8F00B8508B /* TestYoho */,
+				906CC80E1E30CE9200B8508B /* TestYohoTests */,
+				906CC8191E30CE9300B8508B /* TestYohoUITests */,
+				906CC7F31E30CE8F00B8508B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		906CC7F31E30CE8F00B8508B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				906CC7F21E30CE8F00B8508B /* TestYoho.app */,
+				906CC80B1E30CE9200B8508B /* TestYohoTests.xctest */,
+				906CC8161E30CE9200B8508B /* TestYohoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		906CC7F41E30CE8F00B8508B /* TestYoho */ = {
+			isa = PBXGroup;
+			children = (
+				90DE16941E30E5810008B6E9 /* Main */,
+				90DE16921E30E55C0008B6E9 /* Home */,
+				90DE16901E30E54F0008B6E9 /* Category */,
+				90DE16911E30E5560008B6E9 /* Go */,
+				90DE168F1E30E53F0008B6E9 /* Cart */,
+				90DE16931E30E56C0008B6E9 /* Mine */,
+				90DE16951E30E5BD0008B6E9 /* Others */,
+				90DE16AE1E30F9E00008B6E9 /* Common */,
+				906CC7FE1E30CE9100B8508B /* Main.storyboard */,
+				906CC8011E30CE9100B8508B /* Assets.xcassets */,
+				906CC8031E30CE9200B8508B /* LaunchScreen.storyboard */,
+				906CC8061E30CE9200B8508B /* Info.plist */,
+				906CC7F51E30CE8F00B8508B /* Supporting Files */,
+			);
+			path = TestYoho;
+			sourceTree = "<group>";
+		};
+		906CC7F51E30CE8F00B8508B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				906CC7F61E30CE8F00B8508B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		906CC80E1E30CE9200B8508B /* TestYohoTests */ = {
+			isa = PBXGroup;
+			children = (
+				906CC80F1E30CE9200B8508B /* TestYohoTests.m */,
+				906CC8111E30CE9200B8508B /* Info.plist */,
+			);
+			path = TestYohoTests;
+			sourceTree = "<group>";
+		};
+		906CC8191E30CE9300B8508B /* TestYohoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				906CC81A1E30CE9300B8508B /* TestYohoUITests.m */,
+				906CC81C1E30CE9300B8508B /* Info.plist */,
+			);
+			path = TestYohoUITests;
+			sourceTree = "<group>";
+		};
+		90DE168F1E30E53F0008B6E9 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				90DE169F1E30E6670008B6E9 /* CartViewController.h */,
+				90DE16A01E30E6670008B6E9 /* CartViewController.m */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		90DE16901E30E54F0008B6E9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				90DE16991E30E6460008B6E9 /* CategoryViewController.h */,
+				90DE169A1E30E6460008B6E9 /* CategoryViewController.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		90DE16911E30E5560008B6E9 /* Go */ = {
+			isa = PBXGroup;
+			children = (
+				90DE169C1E30E65A0008B6E9 /* GoAroundViewController.h */,
+				90DE169D1E30E65A0008B6E9 /* GoAroundViewController.m */,
+			);
+			path = Go;
+			sourceTree = "<group>";
+		};
+		90DE16921E30E55C0008B6E9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				90DE16961E30E6370008B6E9 /* HomeViewController.h */,
+				90DE16971E30E6370008B6E9 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		90DE16931E30E56C0008B6E9 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				90DE16A21E30E66F0008B6E9 /* MineViewController.h */,
+				90DE16A31E30E66F0008B6E9 /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		90DE16941E30E5810008B6E9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				90DE16A81E30E8900008B6E9 /* YHBaseNavigationController.h */,
+				90DE16A91E30E8900008B6E9 /* YHBaseNavigationController.m */,
+				90DE16AB1E30EC0F0008B6E9 /* YHBaseTabBarController.h */,
+				90DE16AC1E30EC0F0008B6E9 /* YHBaseTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		90DE16951E30E5BD0008B6E9 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				906CC7F81E30CE9000B8508B /* AppDelegate.h */,
+				906CC7F91E30CE9000B8508B /* AppDelegate.m */,
+				906CC7FB1E30CE9100B8508B /* ViewController.h */,
+				906CC7FC1E30CE9100B8508B /* ViewController.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		90DE16AE1E30F9E00008B6E9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				90DE16B71E30FB370008B6E9 /* MBProgressHUD+JDragon */,
+				90DE16AF1E30FA1D0008B6E9 /* MBProgressHUD */,
+			);
+			name = Common;
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		90DE16AF1E30FA1D0008B6E9 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				90DE16B01E30FA1D0008B6E9 /* LICENSE */,
+				90DE16B11E30FA1D0008B6E9 /* MBProgressHUD.h */,
+				90DE16B21E30FA1D0008B6E9 /* MBProgressHUD.m */,
+				90DE16B31E30FA1D0008B6E9 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		90DE16B71E30FB370008B6E9 /* MBProgressHUD+JDragon */ = {
+			isa = PBXGroup;
+			children = (
+				90DE16B81E30FB370008B6E9 /* MBProgressHUD+JDragon.bundle */,
+				90DE16B91E30FB370008B6E9 /* MBProgressHUD+JDragon.h */,
+				90DE16BA1E30FB370008B6E9 /* MBProgressHUD+JDragon.m */,
+			);
+			name = "MBProgressHUD+JDragon";
+			path = "../MBProgressHUD+JDragon";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		906CC7F11E30CE8F00B8508B /* TestYoho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906CC81F1E30CE9300B8508B /* Build configuration list for PBXNativeTarget "TestYoho" */;
+			buildPhases = (
+				906CC7EE1E30CE8F00B8508B /* Sources */,
+				906CC7EF1E30CE8F00B8508B /* Frameworks */,
+				906CC7F01E30CE8F00B8508B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestYoho;
+			productName = TestYoho;
+			productReference = 906CC7F21E30CE8F00B8508B /* TestYoho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		906CC80A1E30CE9200B8508B /* TestYohoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906CC8221E30CE9300B8508B /* Build configuration list for PBXNativeTarget "TestYohoTests" */;
+			buildPhases = (
+				906CC8071E30CE9200B8508B /* Sources */,
+				906CC8081E30CE9200B8508B /* Frameworks */,
+				906CC8091E30CE9200B8508B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				906CC80D1E30CE9200B8508B /* PBXTargetDependency */,
+			);
+			name = TestYohoTests;
+			productName = TestYohoTests;
+			productReference = 906CC80B1E30CE9200B8508B /* TestYohoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		906CC8151E30CE9200B8508B /* TestYohoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906CC8251E30CE9300B8508B /* Build configuration list for PBXNativeTarget "TestYohoUITests" */;
+			buildPhases = (
+				906CC8121E30CE9200B8508B /* Sources */,
+				906CC8131E30CE9200B8508B /* Frameworks */,
+				906CC8141E30CE9200B8508B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				906CC8181E30CE9200B8508B /* PBXTargetDependency */,
+			);
+			name = TestYohoUITests;
+			productName = TestYohoUITests;
+			productReference = 906CC8161E30CE9200B8508B /* TestYohoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		906CC7EA1E30CE8F00B8508B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YiDarren;
+				TargetAttributes = {
+					906CC7F11E30CE8F00B8508B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C65JM478LB;
+					};
+					906CC80A1E30CE9200B8508B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 906CC7F11E30CE8F00B8508B;
+					};
+					906CC8151E30CE9200B8508B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 906CC7F11E30CE8F00B8508B;
+					};
+				};
+			};
+			buildConfigurationList = 906CC7ED1E30CE8F00B8508B /* Build configuration list for PBXProject "TestYoho" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 906CC7E91E30CE8F00B8508B;
+			productRefGroup = 906CC7F31E30CE8F00B8508B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				906CC7F11E30CE8F00B8508B /* TestYoho */,
+				906CC80A1E30CE9200B8508B /* TestYohoTests */,
+				906CC8151E30CE9200B8508B /* TestYohoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		906CC7F01E30CE8F00B8508B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906CC8051E30CE9200B8508B /* LaunchScreen.storyboard in Resources */,
+				906CC8021E30CE9100B8508B /* Assets.xcassets in Resources */,
+				90DE16B41E30FA1D0008B6E9 /* LICENSE in Resources */,
+				906CC8001E30CE9100B8508B /* Main.storyboard in Resources */,
+				90DE16BB1E30FB370008B6E9 /* MBProgressHUD+JDragon.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906CC8091E30CE9200B8508B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906CC8141E30CE9200B8508B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		906CC7EE1E30CE8F00B8508B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906CC7FD1E30CE9100B8508B /* ViewController.m in Sources */,
+				90DE169B1E30E6460008B6E9 /* CategoryViewController.m in Sources */,
+				906CC7FA1E30CE9000B8508B /* AppDelegate.m in Sources */,
+				90DE16AD1E30EC0F0008B6E9 /* YHBaseTabBarController.m in Sources */,
+				90DE16B51E30FA1D0008B6E9 /* MBProgressHUD.m in Sources */,
+				906CC7F71E30CE9000B8508B /* main.m in Sources */,
+				90DE16981E30E6370008B6E9 /* HomeViewController.m in Sources */,
+				90DE16BC1E30FB370008B6E9 /* MBProgressHUD+JDragon.m in Sources */,
+				90DE16A11E30E6670008B6E9 /* CartViewController.m in Sources */,
+				90DE16AA1E30E8900008B6E9 /* YHBaseNavigationController.m in Sources */,
+				90DE16B61E30FA1D0008B6E9 /* README.mdown in Sources */,
+				90DE169E1E30E65A0008B6E9 /* GoAroundViewController.m in Sources */,
+				90DE16A41E30E66F0008B6E9 /* MineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906CC8071E30CE9200B8508B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906CC8101E30CE9200B8508B /* TestYohoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906CC8121E30CE9200B8508B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906CC81B1E30CE9300B8508B /* TestYohoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		906CC80D1E30CE9200B8508B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 906CC7F11E30CE8F00B8508B /* TestYoho */;
+			targetProxy = 906CC80C1E30CE9200B8508B /* PBXContainerItemProxy */;
+		};
+		906CC8181E30CE9200B8508B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 906CC7F11E30CE8F00B8508B /* TestYoho */;
+			targetProxy = 906CC8171E30CE9200B8508B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		906CC7FE1E30CE9100B8508B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				906CC7FF1E30CE9100B8508B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		906CC8031E30CE9200B8508B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				906CC8041E30CE9200B8508B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		906CC81D1E30CE9300B8508B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: FEI CAO (53RDB7DJTB)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		906CC81E1E30CE9300B8508B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: FEI CAO (53RDB7DJTB)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		906CC8201E30CE9300B8508B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: FEI CAO (53RDB7DJTB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: FEI CAO (53RDB7DJTB)";
+				INFOPLIST_FILE = TestYoho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssrj.MFDSsrj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		906CC8211E30CE9300B8508B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: FEI CAO (53RDB7DJTB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: FEI CAO (53RDB7DJTB)";
+				INFOPLIST_FILE = TestYoho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssrj.MFDSsrj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		906CC8231E30CE9300B8508B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestYohoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssrj.MFDSsrj.TestYohoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestYoho.app/TestYoho";
+			};
+			name = Debug;
+		};
+		906CC8241E30CE9300B8508B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestYohoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssrj.MFDSsrj.TestYohoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestYoho.app/TestYoho";
+			};
+			name = Release;
+		};
+		906CC8261E30CE9300B8508B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestYohoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssrj.MFDSsrj.TestYohoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestYoho;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		906CC8271E30CE9300B8508B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestYohoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssrj.MFDSsrj.TestYohoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestYoho;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		906CC7ED1E30CE8F00B8508B /* Build configuration list for PBXProject "TestYoho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906CC81D1E30CE9300B8508B /* Debug */,
+				906CC81E1E30CE9300B8508B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906CC81F1E30CE9300B8508B /* Build configuration list for PBXNativeTarget "TestYoho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906CC8201E30CE9300B8508B /* Debug */,
+				906CC8211E30CE9300B8508B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906CC8221E30CE9300B8508B /* Build configuration list for PBXNativeTarget "TestYohoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906CC8231E30CE9300B8508B /* Debug */,
+				906CC8241E30CE9300B8508B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906CC8251E30CE9300B8508B /* Build configuration list for PBXNativeTarget "TestYohoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906CC8261E30CE9300B8508B /* Debug */,
+				906CC8271E30CE9300B8508B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 906CC7EA1E30CE8F00B8508B /* Project object */;
+}
